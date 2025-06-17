@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> exercise </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <style>
+   
+    
+    body { margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background: linear-gradient(to right, #120261,#b625b3,rgb(76, 14, 112),rgb(68, 22, 128),#b625b3,#120261);
+      color: #3b0202;
+      }
+      .header-content {
+      background-image: url(hdrbg.jpeg);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      position: relative; 
+     width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-radius: 2%;
+     }
+    
+    .header-content h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+      color: white;}
+    .header-content h2 {
+      font-size: 30px;
+      font-weight: 400;
+      color: #78f5ef;
+      margin-bottom: 20px; }
+    .profile-img {
+        width: 150px;
+        height: 150px;
+      border-radius: 50%;
+      border: 5px solid rgba(56, 3, 3, 0.3);
+      margin: 0 auto 20px;
+      display: block; }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px; }
+    section {
+      margin: 40px 0; }
+    
+    h1, h2, h3 {
+      color: #000000;
+      margin-bottom: 10px; }
+
+    .btn {
+      display:inline;
+      padding: 12px 30px;
+      background-color: #2745f0;
+      color: white;
+      border-radius: 5px;
+      margin-top: 20px;
+      margin-right: auto;
+      font-weight: 800;
+      transition: all 0.3s ease;
+       }
+    
+    .btn:hover {
+      background-color: #1e9c9a;
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);  }
+    
+    .card {
+      background:repeating-linear-gradient(blue,black);
+      border-radius: 10px;
+      max-width: 900px;
+      padding: 30px;
+      box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    margin-left: 150px;}
+      .card:hover{transform: translate(-5px);
+         box-shadow:10px 10px 10px 10 rgba(0,0,0,0.1);
+      }
+    
+    .about-content {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto; }
+    
+    .skills-container {
+      display: flex;
+      gap: 30px;
+      margin-top: 30px;}
+    
+    .skill-category {
+      flex: 1;
+      min-width: 300px; }
+    
+    
+    .skills-list {
+      list-style: none;}
+    
+    .skills-list li {
+      background-color: #5420e4;
+      padding: 12px 15px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      }
+    
+    .skills-list li:hover {transition: all 0.3s ease;
+      transform: translateX(5px);
+      background-color: #e4a8f4; }
+    
+    .skills-list li i {
+      color: #2abebc;
+      margin-right: 10px;
+      font-size: 1.2rem;}
+    
+      video{ max-width: 100%;
+      }
+   
+    .contact-container {
+      display: flex;
+      gap: 30px;
+      margin-top: 30px;}
+    
+   
+    .contact-info p {color: #2041fa;
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;}
+    
+    .contact-info i {
+      color: #2abebc;
+      margin-right: 10px;
+      font-size: 1.2rem;
+      width: 40px; }
+    
+    footer {
+      background-color: #103868;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;  }
+    
+     
+  </style>
+</head>
+<body>
+
+  <header>
+    </header>
+    <div class="container"></div>
+    <div class="header-content">
+      <img src="20210719_111105.jpg" alt="picture" class="profile-img">
+      <h1>Anne Leo</h1>
+      <h2>Computer scientist </h2>
+      <a href="#contact"><input type="button" value="CONTACT" class="btn"></a>
+    </div>
+  
+
+  <div class="container">
+   
+    <section id="about">
+      <div class="card">
+        <div class="about-content">
+          <h2>Hello, I'm Anne leo</h2>
+          <p> I am looking forward to further develop my expertise through the master’s program <br>in data science at xxxxxxxxxxxxxxx university.<br>
+            My goal is to broaden and reach new heights in <br>technology development, enhancing employment opportunities and <br>achieving career success.</p>
+      </div>
+    </section>
+
+    <section >
+      <div class="card">
+        <h2> My Skills </h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <ul class="skills-list">
+              <li><i class="fa-solid fa-laptop"></i> Web Development</li>
+              <li><i class="fa-brands fa-html5"></i> HTML</li>
+              <li><i class="fa-brands fa-js"></i> JavaScript </li>
+              <li><i class="fa-brands fa-python"></i>phyton</li>
+              <li><i class="fa-brands fa-microsoft"></i> microsoft office</li>
+              <li><i class="fa-solid fa-database"></i> SQL</li>
+            </ul>
+          </div> 
+    </section>
+
+<section >
+      <div class="card">
+        <h2> short video</h2>
+        <video src="Download.mp4" controls autoplay type="mp4"></video>
+          </div> 
+    </section>
+
+
+    <section id="contact">
+      <div class="card">
+        <h2>Reach me out </h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <p><i class="fas fa-envelope"></i><a href="mailto:ariamelsab@gmail.com">Email Me</a></p>
+            <p><i class="fas fa-phone"></i> +2567000000000</p>
+            <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/qr/CPJFASRUFNDVC1">WhatsApp</a></p>
+            <p>check out my certficates and qualifications here</p>
+          </div>
+            <form action="certificates.html">
+              <button type="submit" class="btn">certfications</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <footer>
+    <div >
+      <p>&copy; 2025 Anne leo. All rights reserved.</p>
+    </div>
+  </footer>
+
+ 
+</body>
+</html>
